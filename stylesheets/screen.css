@@ -49,7 +49,15 @@ body {
 header {
     background: url('../images/logo.svg') 0 0 no-repeat;
     margin-bottom: 136px;
-    padding-top: 170px;
+    padding-top: 100px;
+}
+
+.logo {
+  font-weight: 100;
+}
+
+.emphasis {
+  color: red;
 }
 
 .divider {
@@ -191,6 +199,7 @@ p { max-width: 1000px;}
 }
 
 #clients li {
+  background-size: 60%;
   background-position: top 50% left 50%;
   border-collapse: collapse;
   border: 1px solid #505057;
@@ -203,32 +212,20 @@ p { max-width: 1000px;}
   text-indent: -9999px;
 }
 
-.google {
-  background: url('../images/google.svg') no-repeat;
+.microsoft {
+  background: url('../images/microsoft.png') no-repeat;
 }
-.skype {
-  background: url('../images/skype.svg') no-repeat;
+.yelp {
+  background: url('../images/yelp.png') no-repeat;
 }
-.tata {
-  background: url('../images/tata.svg') no-repeat;
+.phemi {
+  background: url('../images/phemi.png') no-repeat;
 }
-.alibaba {
-  background: url('../images/alibaba.svg') no-repeat;
+.corvus {
+  background: url('../images/corvus.png') no-repeat;
 }
-.vodafone {
-  background: url('../images/vodafone.svg') no-repeat;
-}
-.nokia {
-  background: url('../images/nokia.svg') no-repeat;
-}
-.square {
-  background: url('../images/square.svg') no-repeat;
-}
-.amazon {
-  background: url('../images/amazon.svg') no-repeat;
-}
-.comcast {
-  background: url('../images/comcast.svg') no-repeat;
+.wonderment {
+  background: url('../images/wonderment.png') no-repeat;
 }
 
 /* FINALE -------------------------------- */
