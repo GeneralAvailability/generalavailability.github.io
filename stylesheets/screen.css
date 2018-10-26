@@ -341,7 +341,7 @@ p { max-width: 1000px;}
 @media (max-width: 1200px) {
 
   header {
-    padding-top: calc(260px + 18vw);
+    padding-top: calc(18vw);
   }
 }
 
