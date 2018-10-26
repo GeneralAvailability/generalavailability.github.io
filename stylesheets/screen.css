@@ -47,7 +47,7 @@ body {
 }
 
 header {
-    background: url('../images/logo.svg') 0 0 no-repeat;
+    /*background: url('../images/logo.svg') 0 0 no-repeat;*/
     margin-bottom: 136px;
     padding-top: 100px;
 }
@@ -61,13 +61,9 @@ header {
 }
 
 .divider {
-    background: url('../images/divider.svg') 0 0 no-repeat;
+    /*background: url('../images/divider.svg') 0 0 no-repeat;*/
     height: 40px;
     margin-bottom: 136px;
-}
-
-.divider-alt {
-    background-image: url('../images/divider2.svg');
 }
 
 /* GLOBAL -------------------------------- */
