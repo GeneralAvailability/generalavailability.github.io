@@ -32,7 +32,7 @@ html {
 }
 
 body {
-  background-color: #3D3D45;
+  background-color: #0C2336;
   color: #fcfcfc;
   font: 2em/1.5em  "Graphik Web", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 300;
@@ -57,7 +57,7 @@ header {
 }
 
 .emphasis {
-  color: red;
+  color: #E5C575;
 }
 
 .divider {
@@ -69,13 +69,13 @@ header {
 /* GLOBAL -------------------------------- */
 
 a:link, a:visited {
-    border-bottom: 2px solid #EB3031;
+    border-bottom: 2px solid #E5C575;
     color: #FFF;
     text-decoration: none;
 }
 
 a:hover, a:focus {
-    border-bottom: 2px solid #EB3031;
+    border-bottom: 2px solid #E5C575;
     color: #EB3031;
     text-decoration: none;
 }
@@ -179,7 +179,7 @@ p { max-width: 1000px;}
 /* CLIENTS -------------------------------- */
 
 #clients {
-    background-color: #33333A;
+    background-color: #3D3D45;
     margin-bottom: 136px;
     padding: 136px 50px;
 }
