@@ -76,7 +76,7 @@ a:link, a:visited {
 
 a:hover, a:focus {
     border-bottom: 2px solid #E5C575;
-    color: #EB3031;
+    color: #E5C575;
     text-decoration: none;
 }
 
@@ -135,6 +135,7 @@ p { max-width: 1000px;}
 
 #expertise li {
     background-position: top 40px left 50%;
+    background-size: 100px auto;
     font-weight: 500;
     height: 224px;
     margin: 0;
@@ -157,23 +158,20 @@ p { max-width: 1000px;}
   font-size: 50%;
 }
 
-.fintech {
-  background: url('../images/Fintech.svg') no-repeat;
+.containerization {
+  background: url('../images/services/containerization.png') no-repeat;
 }
-.blockchain {
-  background: url('../images/Blockchain.svg') no-repeat;
+.microservices {
+  background: url('../images/services/microservices.png') no-repeat;
 }
-.consumer {
-  background: url('../images/Consumer.svg') no-repeat;
+.loadtesting {
+  background: url('../images/services/loadtesting.png') no-repeat;
 }
-.robotics {
-  background: url('../images/Robotics.svg') no-repeat;
+.distributedsystems {
+  background: url('../images/services/distributedsystems.png') no-repeat;
 }
-.commerce {
-  background: url('../images/Commerce.svg') no-repeat;
-}
-.ai {
-  background: url('../images/AI.svg') no-repeat;
+.performance {
+  background: url('../images/services/performance.png') no-repeat;
 }
 
 /* CLIENTS -------------------------------- */
