@@ -48,6 +48,7 @@ body {
 
 header {
     background: url('../images/logo.png') 0 0 no-repeat;
+    background-size: 100%;
     margin-bottom: 136px;
     padding-top: 100px;
 }
