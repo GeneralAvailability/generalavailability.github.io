@@ -27,7 +27,7 @@
 }
 
 html {
-  animation: fadeInToBlack 1.5s ease;
+  animation: fadeInToBlack 1.0s ease;
   padding: 134px 0 72px 0;
 }
 
@@ -48,9 +48,15 @@ body {
 
 header {
     background: url('../images/logo.png') 0 0 no-repeat;
-    background-size: 100%;
+    background-size: auto;
     margin-bottom: 136px;
     padding-top: 100px;
+}
+
+@media only screen and (max-width: 1024px){
+    header {
+        background-size: 100%;
+    }
 }
 
 .logo {
